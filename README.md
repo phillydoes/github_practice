@@ -87,19 +87,19 @@ Common Commands:
     
       List:
       
-        -> git branch                                           //list branches. (*) denotes current branch
-        -> git branch -a                                        //list all branches(local and remote)
+        -> git branch                                           //List branches. (*) denotes current branch
+        -> git branch -a                                        //List all branches(local and remote)
       
       Create:
       
-        -> git branch [branch name]                             //creates a new branch with [branch-name]
-        -> git checkout -b [branch name]                        //creates and switch to new branch
-        -> git checkout -b [branch name] origin/[branch name]	  //Clone a remote branch and switch to it
+        -> git branch [branch name]                             //Creates a new branch with [branch-name]
+        -> git checkout -b [branch name]                        //Creates and switch to new branch
+        -> git checkout -b [branch name] origin/[branch name]	//Clone a remote branch and switch to it
       
       Remove:
       
         -> git branch -d [branch name]                          //Delete branch [branch name]
-        -> git push origin --delete [branchName]	              //Delete a remote branch
+        -> git push origin --delete [branchName]	            //Delete a remote branch
         -> git checkout -- [file-name.txt]                      //Discard changes to a file
       
       Access:
@@ -119,7 +119,7 @@ Common Commands:
          and saves it on a stack of unfinished changes that you can 
          reapply at any time."
          
-      Source:https://git-scm.com/book/en/v1/Git-Tools-Stashing
+      Source: https://git-scm.com/book/en/v1/Git-Tools-Stashing
          
          -> git stash                                           //stash changes in a dirty working directory
          -> git stash clear                                     //Remove all stashed entries
@@ -129,15 +129,15 @@ Common Commands:
       Push: Apply changes to remote repository
       
         -> git push                                             //Push changes to remote repository (remembered branch)
-        -> git push origin [branch name]	                      //Push a branch to your remote repository
+        -> git push origin [branch name]	                    //Push a branch to your remote repository
         -> git push -u origin [branch name]	                    //Push changes to remote repository (and remember the branch)
         
-        -> git push origin --delete [branch name]	              //Delete a remote branch
+        -> git push origin --delete [branch name]	            //Delete a remote branch
         
       Pull: Update local repo with remote repo
       
         -> git pull	                                            //Update local repository to the newest commit
-        -> git pull origin [branch name]	                      //Pull changes from remote repository 
+        -> git pull origin [branch name]	                    //Pull changes from remote repository 
     
     
       Remote:
@@ -146,14 +146,14 @@ Common Commands:
         ssh://git@github.com/[username]/[repository-name].git   //Add a remote repo
         
         -> git remote set-url origin 
-        ssh://git@github.com/[username]/[repository-name].git	  //Set a repository's origin branch to SSH
+        ssh://git@github.com/[username]/[repository-name].git	//Set a repository's origin branch to SSH
         
 -----------------------------------------------------------------------------------
 7. Inspection & Comparison
 
-          -> git log                                                //View changes
-          -> git log --summary                                      //View detailed changes
-          -> git diff [source branch] [target branch]               //Preview changes before merging
+          -> git log                                            //View changes
+          -> git log --summary                                  //View detailed changes
+          -> git diff [source branch] [target branch]           //Preview changes before merging
 
 -----------------------------------------------------------------------------------
 Summary:
