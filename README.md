@@ -118,8 +118,8 @@ Common Commands:
          — that is, your modified tracked files and staged changes —
          and saves it on a stack of unfinished changes that you can 
          reapply at any time."
-           
-         Source:https://git-scm.com/book/en/v1/Git-Tools-Stashing
+         
+      Source:https://git-scm.com/book/en/v1/Git-Tools-Stashing
          
          -> git stash                                           //stash changes in a dirty working directory
          -> git stash clear                                     //Remove all stashed entries
