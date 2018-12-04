@@ -49,10 +49,9 @@ General Process:
 2. Status
 
   After adding or creating a repo then accessing repo;
-  
-   1. Check status to see if cloning was successful using;
+  1. Check status to see if cloning was successful using;
     
-            -> git status
+    -> git status
       
    Example: 
      
@@ -120,7 +119,7 @@ General Process:
         If branch is stable and ready to be added to master branch, use;
         
         -> git merge [branch name]                              //Merge a branch into the active branch
-        -> git merge [source branch] [target branch]	          //Merge a branch into a target branch
+        -> git merge [source branch] [target branch]	        //Merge a branch into a target branch
 
       Stash: 
        "Stashing takes the dirty state of your working directory
