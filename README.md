@@ -54,14 +54,15 @@ Common Commands:
         
  -----------------------------------------------------------------------------------  
 3. Files
+
   After confirming repo status, add files using;
   
-    -> git add [file-name.txt] //add a specific file to staging area 
-    -> git add -A              //Add all new and changed files to staging area
+    -> git add [file-name.txt]          //add a specific file to staging area 
+    -> git add -A                       //Add all new and changed files to staging area
   
   Remove a file using;
   
-    -> git rm -r [file-name.txt] //Remove a file or folders
+    -> git rm -r [file-name.txt]        //Remove a file or folders
     
 -----------------------------------------------------------------------------------   
 4. Commit
@@ -72,6 +73,7 @@ Common Commands:
     -> git commit -m "[commit message]"
     
   Commit messages should contain;
+  
     1. All changes made
     2. End Goal and Daily Goal
     3. Problems
@@ -80,8 +82,8 @@ Common Commands:
 -----------------------------------------------------------------------------------   
 5. Branching & Merging
 
-    Create a branch from the master branch
-    when developing new changes that may result in a unstable master branch.
+   Create a branch from the master branch
+   when developing new changes that may result in a unstable master branch.
     
       List:
       
@@ -111,11 +113,12 @@ Common Commands:
         -> git merge [branch name]                              //Merge a branch into the active branch
         -> git merge [source branch] [target branch]	          //Merge a branch into a target branch
 
-      Stash:
-        "Stashing takes the dirty state of your working directory
-           — that is, your modified tracked files and staged changes —
-           and saves it on a stack of unfinished changes that you can 
-           reapply at any time."
+      Stash: 
+       "Stashing takes the dirty state of your working directory
+         — that is, your modified tracked files and staged changes —
+         and saves it on a stack of unfinished changes that you can 
+         reapply at any time."
+           
          Source:https://git-scm.com/book/en/v1/Git-Tools-Stashing
          
          -> git stash                                           //stash changes in a dirty working directory
