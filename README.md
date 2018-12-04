@@ -102,7 +102,7 @@ General Process:
       
         -> git branch [branch name]                             //Creates a new branch with [branch-name]
         -> git checkout -b [branch name]                        //Creates and switch to new branch
-        -> git checkout -b [branch name] origin/[branch name]	//Clone a remote branch and switch to it
+        -> git checkout -b [branch name] origin/[branch name    //Clone a remote branch and switch to it
       
       Remove:
       
