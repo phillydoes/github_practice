@@ -107,19 +107,19 @@ General Process:
       Remove:
       
         -> git branch -d [branch name]                          //Delete branch [branch name]
-        -> git push origin --delete [branchName]	            //Delete a remote branch
+        -> git push origin --delete [branchName]                //Delete a remote branch
         -> git checkout -- [file-name.txt]                      //Discard changes to a file
       
       Access:
       
-        -> git checkout [branch name]                           //switch to branch [branch name]
-        -> git checkout -                                       //switch to branch last checked out
+        -> git checkout [branch name]                           //Switch to branch [branch name]
+        -> git checkout -                                       //Switch to branch last checked out
 
       Merge:
         If branch is stable and ready to be added to master branch, use;
         
         -> git merge [branch name]                              //Merge a branch into the active branch
-        -> git merge [source branch] [target branch]	        //Merge a branch into a target branch
+        -> git merge [source branch] [target branch]            //Merge a branch into a target branch
 
       Stash: 
        "Stashing takes the dirty state of your working directory
@@ -129,18 +129,18 @@ General Process:
          
       Source: https://git-scm.com/book/en/v1/Git-Tools-Stashing
          
-         -> git stash                                           //stash changes in a dirty working directory
+         -> git stash                                           //Stash changes in a dirty working directory
          -> git stash clear                                     //Remove all stashed entries
 -----------------------------------------------------------------------------------
 6. Sharing & Updating Projects
 
       Push: Apply changes to remote repository
       
-        -> git push                                             //Push changes to remote repository (remembered branch)
-        -> git push origin [branch name]	                    //Push a branch to your remote repository
-        -> git push -u origin [branch name]	                    //Push changes to remote repository (and remember the branch)
+        -> git push                                              //Push changes to remote repository (remembered branch)
+        -> git push origin [branch name]                         //Push a branch to your remote repository
+        -> git push -u origin [branch name]	                     //Push changes to remote repository (and remember the branch)
         
-        -> git push origin --delete [branch name]	            //Delete a remote branch
+        -> git push origin --delete [branch name]	             //Delete a remote branch
         
       Pull: Update local repo with remote repo
       
