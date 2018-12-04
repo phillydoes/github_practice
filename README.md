@@ -4,7 +4,6 @@ For more detail:https://github.com/joshnh/Git-Commands
 
 Common Commands:
 
-
     -> git pull	 
 
     -> git clone ssh://git@github.com/[username]/[repository-name].git
@@ -20,6 +19,16 @@ Common Commands:
     
     -> git branch [branch name]
     -> git merge [source branch] [target branch]
+    
+-----------------------------------------------------------------------------------
+General Process:
+
+    1. Add/Create repo
+    2. Check Status of repo
+    3. Add/Remove files, modify repo
+    4. Add files ready to be committed to repo
+    5. Commit w/ message(changelog)
+    6. Push changes to master branch
     
 ----------------------------------------------------------------------------------- 
 1. Starting off
