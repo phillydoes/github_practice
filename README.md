@@ -136,16 +136,16 @@ General Process:
 
       Push: Apply changes to remote repository
       
-        -> git push                                              //Push changes to remote repository (remembered branch)
-        -> git push origin [branch name]                         //Push a branch to your remote repository
-        -> git push -u origin [branch name]	                     //Push changes to remote repository (and remember the branch)
+        -> git push                                             //Push changes to remote repository (remembered branch)
+        -> git push origin [branch name]                        //Push a branch to your remote repository
+        -> git push -u origin [branch name]                     //Push changes to remote repository (and remember the branch)
         
-        -> git push origin --delete [branch name]	             //Delete a remote branch
+        -> git push origin --delete [branch name]               //Delete a remote branch
         
       Pull: Update local repo with remote repo
       
-        -> git pull	                                            //Update local repository to the newest commit
-        -> git pull origin [branch name]	                    //Pull changes from remote repository 
+        -> git pull                                             //Update local repository to the newest commit
+        -> git pull origin [branch name]                        //Pull changes from remote repository 
     
     
       Remote:
@@ -167,6 +167,3 @@ General Process:
 Summary:
   When working with a co-workers on a project, GitHub is popularly used to easily develop within a group.
   Knowing how to effectively use GitHub and their commands can help production and development.
-
-      
-     
