@@ -3,6 +3,8 @@ Tutorial and Practice on using GitHub effeciently
 For more detail:https://github.com/joshnh/Git-Commands
 
 Common Commands:
+
+
     -> git pull	 
 
     -> git clone ssh://git@github.com/[username]/[repository-name].git
@@ -20,11 +22,8 @@ Common Commands:
     -> git merge [source branch] [target branch]
     
 ----------------------------------------------------------------------------------- 
-
-
-
-
 1. Starting off
+
   If a repository is already created, create a local copy of the repo by typing in the command line;
   -> git clone ssh://git@github.com/[username]/[repository-name].git
     Example: Clone this repo "github_practice.git" using;  
@@ -35,6 +34,7 @@ Common Commands:
   
 ----------------------------------------------------------------------------------- 
 2. Status
+
   After adding or creating a repo then accessing repo;
     1. Check status to see if cloning was successful using;
       -> git status
@@ -55,6 +55,7 @@ Common Commands:
     
 -----------------------------------------------------------------------------------   
 4. Commit
+
   After updates are ready to saved, create a record of all files have been modified using;
   Note: Adding a concise commit message is good manners to others working on the same repo. 
     -> git commit -m "[commit message]"
@@ -67,6 +68,7 @@ Common Commands:
     
 -----------------------------------------------------------------------------------   
 5. Branching & Merging
+
     Create a branch from the master branch
     when developing new changes that may result in a unstable master branch.
     
@@ -104,6 +106,7 @@ Common Commands:
          -> git stash clear                                     //Remove all stashed entries
 -----------------------------------------------------------------------------------
 6. Sharing & Updating Projects
+
       Push: Apply changes to remote repository
         -> git push                                             //Push changes to remote repository (remembered branch)
         -> git push origin [branch name]	                      //Push a branch to your remote repository
@@ -125,6 +128,7 @@ Common Commands:
         
 -----------------------------------------------------------------------------------
 7. Inspection & Comparison
+
       -> git log                                                //View changes
       -> git log --summary                                      //View detailed changes
       -> git diff [source branch] [target branch]	              //Preview changes before merging
